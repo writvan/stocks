@@ -1,1 +1,10 @@
 paytm-PAYTM.BSE
+RELIANCE.BSE", "2. name": "RELIANCE INDUSTRIES LTD.
+"HDFC.BSE", "2. name": "HOUSING DEVELOPMENT FINANCE CORP.LTD."
+ "1. symbol": "TCS.BSE", "2. name": "TATA CONSULTANCY SERVICES LTD.
+ 1. symbol": "INFY.BSE", "2. name": "INFOSYS LTD.",
+ 1. symbol": "HINDUNILVR.BSE", "2. name": "HINDUSTAN UNILEVER LTD."
+ 1. symbol": "ICICIBANK.BSE", "2. name": "ICICI BANK
+ HDFCBANK.BSE", "2. name": "HDFC Bank Ltd",
+ 1. symbol": "SBICARD.BSE", "2. name": "SBI Cards and Payment Services Ltd", 
+ 1. symbol": "ITC.BSE", "2. name": "ITC LTD."
