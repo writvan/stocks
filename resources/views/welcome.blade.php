@@ -10,17 +10,18 @@
 </head>
 <body>
 
-<div class="table-box">
+<nav class="table-box">
         <div class="button-head">
         <a class="btn btn-primary" href="indian.php" role="button">Indian Stocks</a>
         <a class="btn btn-primary" href="/" role="button">US Stocks</a>
-        </div>
+        <a class="btn btn-primary" href="http://localhost:8501" role="button">Predict a trend</a>
+</nav>
         <div class="table-row table-head">
             <div class="table-cell first-cell">
                 <p >Company name</p>
             </div>
             <div class="table-cell">
-                <p>Symbol</p>
+                <p>Ticker</p>
             </div>
             <div class="table-cell">
                 <p>Price</p>
@@ -45,13 +46,13 @@
                 <p href="#">AMZN</p>
             </div>
             <div class="table-cell">
-                <p>94.5800</p>
+                <p>94.8800</p>
             </div>
             <div class="table-cell">
-                <p>-2.6200</p>
+                <p>2.4500</p>
             </div>
             <div class="table-cell">
-                <p>-2.6955%</p>
+                <p>2.6507%</p>
             </div>
             <div class="table-cell last-cell">
                 <a href="uschart\amznchart.php">View</a>
@@ -63,7 +64,7 @@
 function getAudio(){
 	var txt=jQuery('#txt').val()
 	jQuery.ajax({
-		url:'get.php',
+		url:'usaud\get1.php',
 		type:'post',
 		data:'txt='+txt,
 		success:function(result){
@@ -95,9 +96,9 @@ function getAudio(){
             <div class="table-cell last-cell">
                 <a href="uschart\apchart.php">View</a>
                                 <div id="player"></div>
-    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio()"></i>
+    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio1()"></i>
 <script>
-function getAudio(){
+function getAudio1(){
 	var txt=jQuery('#txt').val()
 	jQuery.ajax({
 		url:'usaud/get2.php',
@@ -131,9 +132,9 @@ function getAudio(){
             <div class="table-cell last-cell">
                 <a href="uschart\gchart.php">View</a>
                                 <div id="player"></div>
-    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio()"></i>
+    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio2()"></i>
 <script>
-function getAudio(){
+function getAudio2(){
 	var txt=jQuery('#txt').val()
 	jQuery.ajax({
 		url:'usaud/get3.php',
@@ -167,9 +168,9 @@ function getAudio(){
             <div class="table-cell last-cell">
                 <a href="uschart\msftchart.php">View</a>
                                 <div id="player"></div>
-    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio()"></i>
+    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio3()"></i>
 <script>
-function getAudio(){
+function getAudio3(){
 	var txt=jQuery('#txt').val()
 	jQuery.ajax({
 		url:'usaud/get4.php',
@@ -203,9 +204,9 @@ function getAudio(){
             <div class="table-cell last-cell">
                 <a href="uschart\tslachart.php">View</a>
                                 <div id="player"></div>
-    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio()"></i>
+    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio4()"></i>
 <script>
-function getAudio(){
+function getAudio4(){
 	var txt=jQuery('#txt').val()
 	jQuery.ajax({
 		url:'usaud/get5.php',
@@ -240,9 +241,9 @@ function getAudio(){
             <div class="table-cell last-cell">
                 <a href="uschart\nvdachart.php">View</a>
                                 <div id="player"></div>
-    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio()"></i>
+    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio5()"></i>
 <script>
-function getAudio(){
+function getAudio5(){
 	var txt=jQuery('#txt').val()
 	jQuery.ajax({
 		url:'usaud/get6.php',
@@ -276,9 +277,9 @@ function getAudio(){
             <div class="table-cell last-cell">
                 <a href="uschart\metachart.php">View</a>
                                 <div id="player"></div>
-    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio()"></i>
+    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio6()"></i>
 <script>
-function getAudio(){
+function getAudio6(){
 	var txt=jQuery('#txt').val()
 	jQuery.ajax({
 		url:'usaud/get7.php',
@@ -312,9 +313,9 @@ function getAudio(){
             <div class="table-cell last-cell">
                 <a href="uschart\unhchart.php">View</a>
                                 <div id="player"></div>
-    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio()"></i>
+    <i class="bi bi-mic"type="button" name="submit" onclick="getAudio7()"></i>
 <script>
-function getAudio(){
+function getAudio7(){
 	var txt=jQuery('#txt').val()
 	jQuery.ajax({
 		url:'usaud/get1.php',

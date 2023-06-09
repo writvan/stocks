@@ -93,7 +93,7 @@ if(isset($result['Time Series (1min)'])){
 //     echo "</table>";
 
 }else{
-    echo "something went wrong";
+    echo "something went wrong";
 }
 
 ?>

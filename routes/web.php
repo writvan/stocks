@@ -16,24 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/candlestick-data', function () {
-    $data = [
-        [
-            't' => '2022-01-01',
-            'o' => 10,
-            'h' => 15,
-            'l' => 5,
-            'c' => 12,
-        ],
-        [
-            't' => '2022-01-02',
-            'o' => 12,
-            'h' => 17,
-            'l' => 9,
-            'c' => 15,
-        ],
-        // add more data as needed
-    ];
-
-    return response()->json($data);
-});
+?>
